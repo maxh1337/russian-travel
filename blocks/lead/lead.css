@@ -1,0 +1,14 @@
+.lead {
+    height: 1005px;
+    width: 984px;
+    display: block;
+    margin: auto auto 0 auto;
+    justify-content: center;
+}
+
+@media screen and (max-width:1280px) {
+    .lead {
+        width: 928px;
+        height: 962px;
+    }
+}

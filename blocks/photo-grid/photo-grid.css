@@ -1,0 +1,19 @@
+.photo-grid {
+    width: 1184px;
+    height: 671px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    margin: auto auto 92px;
+    justify-content: center;
+}
+@media screen and (max-width: 1280px){
+ .photo-grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+    width: 928px;
+    height: 942px;
+ }
+}

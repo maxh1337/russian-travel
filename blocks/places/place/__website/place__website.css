@@ -1,0 +1,9 @@
+#pageWebsite {
+    grid-area: website;
+}
+
+.place__website {
+    align-self: flex-end;
+    margin-bottom: 8px;
+    width: 456px;
+}
