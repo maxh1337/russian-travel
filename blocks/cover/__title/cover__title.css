@@ -8,6 +8,16 @@
     color: #FFFFFF;
     width: 560px;
     height: 152px;
-    text-decoration-line: none ;
+    text-decoration-line: none;
     margin: auto auto 32px auto;
+}
+
+@media screen and (max-width:768px) {
+    .cover__title {
+        width: 288px;
+        height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto auto 16px auto;
+    }
 }

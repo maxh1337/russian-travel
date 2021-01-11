@@ -3,8 +3,9 @@
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 170%;
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin-top: 0;
+    height: 12px;
 }

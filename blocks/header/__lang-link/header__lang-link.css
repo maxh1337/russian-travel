@@ -8,6 +8,13 @@
 }
 
 .header__lang-link:first-of-type {
-    text-decoration-line: underline !important;
+    text-decoration-line: underline;
     margin-right: 18px;
+}
+
+@media screen and (max-width:768px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

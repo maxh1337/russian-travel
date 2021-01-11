@@ -13,8 +13,27 @@
     margin-bottom: 26px;
     margin-top: 0;
 }
-@media screen and (max-width: 1280px){
-    .place__paragraph{
-    width: 456px;
+
+.place__paragraph:nth-child(2) {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .place__paragraph {
+        width: 456px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .place__paragraph {
+        width: 352px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .place__paragraph {
+        width: 288px;
+        margin: auto auto 26px auto;
     }
 }

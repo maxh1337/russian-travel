@@ -5,4 +5,13 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:768px){
+    .intro__list{
+    width: 288px;
+    height: 90px;   
+    }
 }

@@ -7,3 +7,19 @@
     margin-bottom: 8px;
     width: 456px;
 }
+
+@media screen and (max-width:1024px){
+    .place__website{
+    margin-bottom: 20px;
+    width: 352px;
+    height: 46px;
+    align-self: flex-start;
+    }
+}
+@media screen and (max-width:768px){
+    .place__website{
+        width: 288px;
+        height: 46px;
+        margin: auto auto 0 auto;
+    }
+}
