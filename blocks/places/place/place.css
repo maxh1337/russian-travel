@@ -3,7 +3,6 @@
     width: 984px;
     height: 584px;
     display: grid;
-    grid-template-areas: "title website" "image paragraph";
     grid-template-rows: 84px 1fr;
     grid-template-columns: 460px 484px;
     gap: 40px;
@@ -25,43 +24,42 @@
 
 @media screen and (max-width:1280px) {
     .place {
-        height: 564px;
-        width: 928px;
+        min-height: 564px;
+        max-width: 928px;
         grid-template-rows: 92px 1fr;
         grid-template-columns: 440px 456px;
         gap: 32px;
     }
     .place:nth-of-type(1) {
-        height: 640px;
+        min-height: 640px;
         grid-template-rows: 160px 1fr;
     }
     .place:nth-of-type(4) {
-        height: 640px;
+        min-height: 640px;
         grid-template-rows: 160px 1fr;
     }
 }
 
 @media screen and (max-width:1024px) {
     .place {
-        height: 535px;
-        width: 720px;
+        min-height: 535px;
+        max-width: 720px;
         grid-template-rows: 66px 1fr;
         grid-template-columns: 340px 352px;
         gap: 28px;
     }
     .place:nth-of-type(1) {
-        height: 581px;
+        min-height: 581px;
         grid-template-rows: 112px 1fr;
     }
     .place:nth-of-type(4) {
-        height: 434px;
+        min-height: 434px;
         grid-template-rows: 66px 1fr;
     }
 }
 
 @media screen and (max-width:768px) {
     .place {
-        grid-template-areas: "title" "website" "image" "paragraph";
         max-width: 320px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -72,7 +70,7 @@
 
 @media screen and (max-width:768px) {
     .place:nth-of-type(1) {
-        height: 1042px;
+        min-height: 1042px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
@@ -80,19 +78,19 @@
 
 @media screen and (max-width:768px) {
     .place:nth-of-type(2) {
-        height: 1016px;
+        min-height: 1016px;
     }
 }
 
 @media screen and (max-width:768px) {
     .place:nth-of-type(3) {
-        height: 990px;
+        min-height: 990px;
     }
 }
 
 @media screen and (max-width:768px) {
     .place:nth-of-type(4) {
-        height: 964px;
+        min-height: 964px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
@@ -100,6 +98,6 @@
 
 @media screen and (max-width:768px) {
     .place:nth-of-type(5) {
-        height: 965px;
+        min-height: 965px;
     }
 }

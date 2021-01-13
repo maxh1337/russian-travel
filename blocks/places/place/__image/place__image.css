@@ -23,5 +23,7 @@
     .place__image{
     width: 320px;
     height: 320px;
+    grid-column: 1/2;
+    grid-row: 3/3;
     }
 }

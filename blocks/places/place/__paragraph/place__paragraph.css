@@ -35,5 +35,7 @@
     .place__paragraph {
         width: 288px;
         margin: auto auto 26px auto;
+        grid-column: 1/2;
+        grid-row: 4/4;
     }
 }

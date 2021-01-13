@@ -23,5 +23,7 @@
         width: 288px;
         height: 46px;
         margin: auto auto 0 auto;
+        grid-column: 1/2;
+        grid-row: 2/2;
     }
 }
