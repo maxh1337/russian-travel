@@ -54,8 +54,8 @@
         grid-template-rows: 112px 1fr;
     }
     .place:nth-of-type(4) {
-        height: 581px;
-        grid-template-rows: 112px 1fr;
+        height: 434px;
+        grid-template-rows: 66px 1fr;
     }
 }
 

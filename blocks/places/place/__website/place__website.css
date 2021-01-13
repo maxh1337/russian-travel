@@ -6,6 +6,8 @@
     align-self: flex-end;
     margin-bottom: 8px;
     width: 456px;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 @media screen and (max-width:1024px){
@@ -13,7 +15,7 @@
     margin-bottom: 20px;
     width: 352px;
     height: 46px;
-    align-self: flex-start;
+    align-self: flex-end;
     }
 }
 @media screen and (max-width:768px){
