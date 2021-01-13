@@ -5,10 +5,19 @@
     margin: 66px auto 64px auto;
     justify-content: center;
     align-items: center;
-    background-size: 100%;
-    background-image: url(./../../images/cover-trains.jpg);
-}
 
+    
+    background-position: center;
+    background-size: cover;
+    background-image: url(./../../images/cover-trains.jpg);
+    transition: 0.5;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.cover:hover{
+    transition: 0.5;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 @media screen and (max-width:1280px) {
     .cover {
         max-width: 1024px;

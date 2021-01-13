@@ -11,13 +11,13 @@
     margin: 0;
 }
 
-@media screen and (max-width:768px){
-    .footer__copyright{
-    width: 186px;
-    height: 14px;
-    line-height: 14px;
-    display: inline-block;
-    margin-top: 48px;
-    text-align: inherit;
+@media screen and (max-width:768px) {
+    .footer__copyright {
+        width: 186px;
+        height: 14px;
+        line-height: 14px;
+        display: inline-block;
+        margin-top: 48px;
+        text-align: inherit;
     }
 }
