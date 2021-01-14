@@ -1,18 +1,18 @@
 .header__lang-link {
-    font-family: 'Inter';
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: white;
+    display: inline-block;
 }
 
 .header__lang-link:first-of-type {
-    text-decoration-line: underline;
     margin-right: 18px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;

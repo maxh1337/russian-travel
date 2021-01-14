@@ -1,7 +1,6 @@
 .place {
     margin-bottom: 80px;
     width: 984px;
-    height: 584px;
     display: grid;
     grid-template-rows: 84px 1fr;
     grid-template-columns: 460px 484px;
@@ -9,12 +8,10 @@
 }
 
 .place:nth-of-type(1) {
-    height: 660px;
     grid-template-rows: 152px 1fr;
 }
 
 .place:nth-of-type(4) {
-    height: 660px;
     grid-template-rows: 152px 1fr;
 }
 
@@ -22,82 +19,42 @@
     margin-bottom: 92px;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1279px) {
     .place {
-        min-height: 564px;
         max-width: 928px;
         grid-template-rows: 92px 1fr;
         grid-template-columns: 440px 456px;
         gap: 32px;
     }
     .place:nth-of-type(1) {
-        min-height: 640px;
         grid-template-rows: 160px 1fr;
     }
     .place:nth-of-type(4) {
-        min-height: 640px;
         grid-template-rows: 160px 1fr;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .place {
-        min-height: 535px;
         max-width: 720px;
         grid-template-rows: 66px 1fr;
         grid-template-columns: 340px 352px;
         gap: 28px;
     }
     .place:nth-of-type(1) {
-        min-height: 581px;
         grid-template-rows: 112px 1fr;
     }
     .place:nth-of-type(4) {
-        min-height: 434px;
         grid-template-rows: 66px 1fr;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .place {
         max-width: 320px;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 35px 46px 320px 1fr;
         gap: 32px;
         margin-bottom: 50px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .place:nth-of-type(1) {
-        min-height: 1042px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .place:nth-of-type(2) {
-        min-height: 1016px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .place:nth-of-type(3) {
-        min-height: 990px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .place:nth-of-type(4) {
-        min-height: 964px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .place:nth-of-type(5) {
-        min-height: 965px;
     }
 }

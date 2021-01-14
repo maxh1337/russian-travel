@@ -1,27 +1,23 @@
 .lead {
-    min-height: 1005px;
     max-width: 984px;
     display: block;
     margin: auto auto 0 auto;
     justify-content: center;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1279px) {
     .lead {
         max-width: 928px;
-        min-height: 962px;
     }
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
     .lead{
     max-width: 768px;
-    min-height: 862px;
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .lead{
     max-width: 320px;
-    min-height: 406px;
     }
 }

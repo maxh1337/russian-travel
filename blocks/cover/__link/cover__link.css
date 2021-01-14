@@ -15,20 +15,20 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1279px) {
     .cover__link {
         max-width: 1024px;
         min-height: 640px;
     }
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
     .cover__link{
         max-width: 768px;
         min-height: 480px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .cover__link{
     max-width: 320px;
     min-height: 200px;
