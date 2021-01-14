@@ -23,6 +23,6 @@
         max-width: 186px;
         margin-left: 16px;
         margin-bottom: 24px;
-        display: inline-block;
+        display: grid;
     }
 }
